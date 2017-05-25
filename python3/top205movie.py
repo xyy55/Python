@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 from urllib.error import URLError,HTTPError
 from time import sleep
 
+#获取豆瓣top250的电影名字
 def get_moive_name():
     movie_name = []
     for i in range(0,250,25):
@@ -15,6 +16,7 @@ def get_moive_name():
             movie_name.append(movie.img.attrs['alt'])
     return movie_name
 
+#在80s.tw网站上进行电影的搜索操作，得到有迅雷下载链接的页面
 def search_movie(movie_name = []):
     if len(movie_name) == 0:
         return
@@ -47,6 +49,7 @@ def search_movie(movie_name = []):
         urls.append(u)
     return urls
 
+#获取下载链接
 def get_download_link(urls = [],movie_name = []):
     if len(urls) == 0:
         return
