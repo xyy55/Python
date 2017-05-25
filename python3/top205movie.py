@@ -89,22 +89,8 @@ def get_download_link(urls = [],movie_name = []):
     return names,links
 
 def main():
-    #movie_name = get_moive_name()
-    movie_name = []
-    file = open("E:\\movie_name.txt",'r')
-    for name in file:
-        movie_name.append(name.strip())
-    file.close()
-    '''urls = search_movie(movie_name)
-    file = open("E:\\urls.txt",'w')
-    for url in urls:
-        file.write(url+'\n')
-    file.close()'''
-    file = open("E:\\urls.txt",'r')
-    urls = []
-    for i in file:
-        urls.append(i.strip())
-    file.close()
+    movie_name = get_moive_name()
+    urls = search_movie(movie_name)
     names,links = get_download_link(urls,movie_name)
     file = open("E:\\links.txt",'w')
     for link in links:
