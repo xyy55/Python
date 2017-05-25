@@ -1,5 +1,4 @@
 #-*- encoding: utf-8 -*-
-# -*- coding: utf-8 -*-
 from urllib import request
 from urllib.parse import urlencode
 from time import sleep
