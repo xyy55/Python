@@ -13,7 +13,8 @@ import re
 file = open('movie_data.json','r',encoding='utf-8')  
 movie_data = json.load(file)  
 file.close()  
-people_name = "78559574"
+#这里填你的豆瓣上面的id
+people_name = ""
 url = "https://movie.douban.com/people/"+people_name+"/"
 movie_data.setdefault(people_name,{})
 movie_data[people_name]["people_url"] = url
