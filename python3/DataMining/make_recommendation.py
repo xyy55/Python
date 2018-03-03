@@ -11,7 +11,8 @@ from math import sqrt
 file = open('movie_data.json','r',encoding='utf-8')  
 movie_data = json.load(file)  
 file.close()
-my_name = "78559574"
+#这里填你豆瓣的id
+my_name = ""
 
 #返回p1和p2的皮尔逊相关系数
 def sim_pearson(prefs,p1,p2):
@@ -66,7 +67,7 @@ def getRecommendations(prefs,person,n=5,similarity=sim_pearson):
     for item in prefs[other]["movies"]:
 	    
       # only score movies I haven't seen yet
-      if item not in prefs[person] or prefs[person]["movies"][item]==0:
+      if item not in prefs[person]["movies"] or prefs[person]["movies"][item]==0:
         # Similarity * Score
         totals.setdefault(item,0)
         totals[item]+=int(prefs[other]["movies"][item]["movie_rate"])*sim
