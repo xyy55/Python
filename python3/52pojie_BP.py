@@ -17,7 +17,7 @@ header = {
         'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
         'Accept-Language':'zh-CN,zh;q=0.9',
         'Connection':'keep-alive',
-        'Cookie':'_uab_collina=152688811822362209678225; htVD_2132_connect_is_bind=0; htVD_2132_nofavfid=1; htVD_2132_smile=1D1; htVD_2132_saltkey=o826v8sm; htVD_2132_lastvisit=1529483267; _umdata=2FB0BDB3C12E491D1A01C24CA54EEFAD9CB2F1A9AD09B82BA94DC1A5B3AAB0FA80630057DE8A0967CD43AD3E795C914C9B3B828722CA97BD4825F8EED2850239; htVD_2132_auth=f42d95AQdZPmIBJ3RnpMQ5RqnFr6W2T%2FNRFfJsmKKwYgRO1VR2rMWVT2o1uMLz9UlzRRai4erTU2F6LpmWkaxzrGfuU; htVD_2132_pc_size_c=0; htVD_2132_ulastactivity=1530149807%7C0; Hm_lvt_46d556462595ed05e05f009cdafff31a=1529678618,1529917693,1530098412,1530149793; htVD_2132_ttask=603543%7C20180628; htVD_2132_lastcheckfeed=603543%7C1530149986; htVD_2132_visitedfid=2D10D8D66D16; htVD_2132_viewid=tid_755639; Hm_lpvt_46d556462595ed05e05f009cdafff31a=1530149978; htVD_2132_st_p=603543%7C1530150023%7C54632041d813c1c3de35de0b7db63948; htVD_2132_lastact=1530150040%09forum.php%09ajax',
+        'Cookie':'',
         'Host':'www.52pojie.cn',
         'Upgrade-Insecure-Requests':'1',
         'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
